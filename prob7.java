@@ -9,7 +9,7 @@ class Solution {
 				z = x % 10;				
 				y = y+ z*(int) Math.pow(10, w-1);	
 				x = x/10;
-//				++i; 
+// w				++i; 
 				--w;
 			}			
 			return y;
